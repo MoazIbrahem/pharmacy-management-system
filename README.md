@@ -36,11 +36,24 @@ The Pharmacy Management System is a software application designed to manage phar
 ## Installation
 
 1. Ensure Python is installed on your system.
+
 2. Install the required libraries:
+
    ```bash
    pip install tkinter customtkinter
    ```
-3. Run the main script to launch the application.
+
+3. Save the `login.py` file.
+
+4. Open a terminal or command prompt and navigate to the directory where `login.py` is saved.
+
+5. Run the script using:
+
+   ```bash
+   python login.py
+   ```
+
+6. The login interface will launch where you can enter the credentials provided below.
 
 ## Notes
 
@@ -51,6 +64,3 @@ The Pharmacy Management System is a software application designed to manage phar
 - Log in using the provided credentials.
 - Access different functionalities based on the user role.
 - Manage inventory, process sales, and maintain records efficiently.
-
-##
-
