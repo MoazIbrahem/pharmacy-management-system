@@ -58,6 +58,7 @@ The Pharmacy Management System is a software application designed to manage phar
 ## Notes
 
 - To update the body of the display screen, modify the screen width and height percentages in `login.py` at lines 23 and 24 according to your screen size.
+- You may have problems with the database file path and image paths.
 
 ## Usage
 
