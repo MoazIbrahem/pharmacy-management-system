@@ -1,7 +1,7 @@
 import sqlite3
 import datetime
 # Connect to the database
-db = sqlite3.connect(r"pharmacy-management-system\Project\database\data.db")
+db = sqlite3.connect(r"Project\database\data.db")
 cr = db.cursor()
 
 # ===================================================================================

@@ -1,7 +1,7 @@
 import sqlite3
 
 # Connect to the database
-db = sqlite3.connect(r"pharmacy-management-system\Project\database\data.db")#pharmacy-management-system\Project\database\data.db
+db = sqlite3.connect(r"Project\database\data.db")#Project\database\data.db
 cr = db.cursor()
 
 # Create the Orders table

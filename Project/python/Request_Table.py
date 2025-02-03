@@ -2,7 +2,7 @@ import sqlite3
 from datetime import datetime
 
 # Database connection
-db = sqlite3.connect(r"pharmacy-management-system\Project\database\data.db")
+db = sqlite3.connect(r"Project\database\data.db")
 cr = db.cursor()
 
 # Step 1: Create a new table with Date column

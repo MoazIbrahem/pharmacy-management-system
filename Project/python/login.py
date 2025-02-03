@@ -70,11 +70,11 @@ def login(main):
             eye_button.configure(image=closed_eye_img)
 
     # Load images
-    bg_img = CTkImage(dark_image=Image.open(r"pharmacy-management-system\Project\image\bg1.jpg"), size=(500, 500))
-    open_eye_img = CTkImage(#pharmacy-management-system\Project\image\bg1.jpg
-        light_image=Image.open(r"pharmacy-management-system\Project\image\visible.png").resize((20, 20))
+    bg_img = CTkImage(dark_image=Image.open(r"Project\image\bg1.jpg"), size=(500, 500))
+    open_eye_img = CTkImage(#Project\image\bg1.jpg
+        light_image=Image.open(r"Project\image\visible.png").resize((20, 20))
     )
-    closed_eye_img = CTkImage(light_image=Image.open(r"pharmacy-management-system\Project\image\eye.png").resize((20, 20)))
+    closed_eye_img = CTkImage(light_image=Image.open(r"Project\image\eye.png").resize((20, 20)))
 
     # Background image label
     bg_label = CTkLabel(main, image=bg_img, text="")

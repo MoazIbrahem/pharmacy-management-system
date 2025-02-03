@@ -409,7 +409,7 @@ def doctor_page(information, root):
             widget.destroy()
 
         # Add a background image on the right (initial state)
-        bg_image = Image.open(r"pharmacy-management-system\Project\image\medical-composition-with-pills.jpg")
+        bg_image = Image.open(r"Project\image\medical-composition-with-pills.jpg")
         bg_image = bg_image.resize((850, 500), Image.Resampling.LANCZOS)
         bg_photo = ImageTk.PhotoImage(bg_image)
 
@@ -449,7 +449,7 @@ def doctor_page(information, root):
     frame1 = CTkFrame(root, fg_color="#D9D9D9", corner_radius=20)
     frame1.grid(row=0, column=0, padx=10, sticky="ns")
 
-    bg_image = Image.open(r"pharmacy-management-system\Project\image\medical-composition-with-pills.jpg")
+    bg_image = Image.open(r"Project\image\medical-composition-with-pills.jpg")
     bg_image = bg_image.resize((850, 500), Image.Resampling.LANCZOS)
     bg_photo = ImageTk.PhotoImage(bg_image)
 
